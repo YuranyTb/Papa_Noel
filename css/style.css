@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;/*Establece el area de relleno en los cuatros lados*/
+    box-sizing/*Tamaño de caja*/: border-box;/*Para que los elementos, mantengan su tamaño*/
+}
+
+body {
+    background-color: #53c8dc;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    padding: 4rem;
+}
+
+#titulo{
+    color: #fb4f2b;
+    display: flex;
+    margin: 90px 5px 5px 5px;
+    padding-inline-start: 60px;
+}
+
+.espacio{
+    width: 15vh;
+    height: 5vh;
+    border-radius: 3rem;
+    box-shadow: 0px 0px 1px 1px white;
+    color:  aliceblue;
+    font-size: 25px;
+    padding: 1px;  
+    margin: 1px;  
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;       
+}
+
+#cuentaRegresiva {
+    max-width: 400px;
+    align-items: normal;
+    padding: 3px; 
+    display: flex;     
+    text-align: center;
+    top: 80px;
+}
+
+.dias{
+  color: aliceblue;
+  margin: 35px 35px 30px;
+}
+
+.papanoelOff{
+    width: 550px;
+    height: 620px;
+    background-image: url(../img/Papa_Noel2.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 50px;
+    top: 70px;    
+}
+
+.papanoelOff.on{
+    background-image: url(../img/Papa_Noel_gif.gif);
+}
+
+#papanoelOnOff{
+    background-color: aliceblue;
+    color: #fb4f2b;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;   
+    border-radius: 5rem;
+    box-shadow: 0px 0px 0px 0px white;
+    left: 110px;   
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 30px 30px 30px;
+}
+
+#papanoelOnOff1{
+    background-color: aliceblue;
+    color: #fb4f2b;
+    width: 100px;
+    height: 30px;
+    font-size: 25px;   
+    border-radius: 5rem;
+    box-shadow: 0px 0px 0px 0px white;
+    position: absolute;
+    left: 240px; 
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    margin: 30px 30px 30px 30px; /*Arriba derecha izquierda abajo*/
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
